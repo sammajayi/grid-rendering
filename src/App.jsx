@@ -4,7 +4,7 @@ import Grid from './Grid';
 
 function App() {
   return (
-    <div style={{justifyContent:'center', width:'60%'}}>
+    <div style={{width: '50%', justifyContent: 'center', alignItems: 'center', margin: '20px auto'}}>
     <Grid 
       numRows={2}
       numCols={4}
