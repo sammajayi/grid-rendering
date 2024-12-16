@@ -1,14 +1,18 @@
 import { range } from './utils';
 
 const gridStyles = {
-  width: '100px',
-  height: '100px',
+  width: '80px',
+  height: '80px',
   border: 'solid grey',
   borderRadius: '5px',
+  padding: '20px',
+  margin: '10px',
 };
 
 const rowStyle = {
   display: 'flex',
+  alignItems: 'center', 
+  justifyContent: 'center'
 }
 
 function Grid({ numRows, numCols }) {

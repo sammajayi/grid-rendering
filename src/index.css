@@ -16,7 +16,7 @@
 
 /* write neccessary css for the grid- simple box style, use the css reset from the star project */
 
- div {
+.grid {
   display:flex;
   flex-wrap: wrap;
   gap: 5px;

@@ -4,10 +4,12 @@ import Grid from './Grid';
 
 function App() {
   return (
-    <Grid
+    <div style={{justifyContent:'center', width:'60%'}}>
+    <Grid 
       numRows={2}
       numCols={4}
     />
+    </div>
   );
 }
 
